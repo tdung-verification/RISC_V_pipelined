@@ -1,0 +1,650 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/simulation/modelsim
+T_opt
+Z1 !s110 1747212020
+VjJM>OYD5HIo2Giz9i6S552
+04 12 4 work tb_pipelined fast 0
+=1-d8bbc1ad5799-682456f4-2a5-6f0
+!s124 OEM10U28 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+valu
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 SCO2jieVFSUBn@H:C3DhU2
+Ih2B7DHJncFnB[f?4m:_RW2
+S1
+R0
+w1747160768
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu.sv
+!i122 22
+L0 1 150
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z6 !s108 1747212020.000000
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu.sv|
+!i113 0
+Z7 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+valu_control
+R3
+R1
+!i10b 1
+!s100 CmFe6Al<1CYYkeoODc@oM2
+IZfKk6f^Ja?HZ=ZS^U3QWh3
+S1
+R0
+w1747199253
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu_control.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu_control.sv
+!i122 21
+L0 17 26
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu_control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu_control.sv|
+!i113 0
+R7
+R8
+R2
+vbranch_comb
+R3
+Z9 !s110 1747212019
+!i10b 1
+!s100 Dl4MQo8G2dFQM_C10XjWT1
+InQARRHF1FG@2[jj42oFdz1
+S1
+R0
+w1747207906
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_comb.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_comb.sv
+!i122 20
+L0 1 24
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1747212019.000000
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_comb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_comb.sv|
+!i113 0
+R7
+R8
+R2
+vbranch_prediction
+R3
+R9
+!i10b 1
+!s100 DU<b4_Tm1DZo4bF;hR0JI2
+IClM]FQ2?z?C5ILBoekK7a3
+S1
+R0
+w1747210550
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_prediction.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_prediction.sv
+!i122 19
+L0 1 53
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_prediction.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_prediction.sv|
+!i113 0
+R7
+R8
+R2
+vbtb
+R3
+R9
+!i10b 1
+!s100 MF9Y:X?cN]4O7f5B1diFW1
+I<>X7f5XB5W3J^D4_;::1<1
+S1
+R0
+w1747068883
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/btb.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/btb.sv
+!i122 18
+L0 1 35
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/btb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/btb.sv|
+!i113 0
+R7
+R8
+R2
+vcontrol
+R3
+R9
+!i10b 1
+!s100 _Id0OW9FkfNmgjh[ElPDV3
+Ia5PB?5`P9gj57NVAoG;GG0
+S1
+R0
+w1747208012
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control.sv
+!i122 17
+L0 1 108
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control.sv|
+!i113 0
+R7
+R8
+R2
+vcontrol_ff_DE
+R3
+R9
+!i10b 1
+!s100 :<TDnLY7F2e^zU[d15`Mb2
+I]BZGzn5[UA6Gcj]3@<e2G2
+S1
+R0
+w1747205845
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_DE.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_DE.sv
+!i122 16
+Z11 L0 1 32
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_DE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_DE.sv|
+!i113 0
+R7
+R8
+R2
+ncontrol_ff_@d@e
+vcontrol_ff_EM
+R3
+R9
+!i10b 1
+!s100 g];W:N3Cz4:`A]AAMW]4=2
+IU7dQ[n<8TX3?;NQAfe]Tn2
+S1
+R0
+w1747206030
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_EM.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_EM.sv
+!i122 15
+L0 1 20
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_EM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_EM.sv|
+!i113 0
+R7
+R8
+R2
+ncontrol_ff_@e@m
+vcontrol_ff_MW
+R3
+R9
+!i10b 1
+!s100 K<]gA`NB@>m=AH]XR^ICj3
+I_6::9DJkze9_<J_FZTAij1
+S1
+R0
+w1744942334
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_MW.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_MW.sv
+!i122 14
+Z12 L0 1 18
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_MW.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_MW.sv|
+!i113 0
+R7
+R8
+R2
+ncontrol_ff_@m@w
+vcontrol_unit
+R3
+R9
+!i10b 1
+!s100 alAYP6R599nPV?3Kz^YQ`2
+I_;[:2eekZVfQ9ZW0`H_LL2
+S1
+R0
+w1747204675
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_unit.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_unit.sv
+!i122 13
+L0 1 122
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_unit.sv|
+!i113 0
+R7
+R8
+R2
+vdatapath
+R3
+R9
+!i10b 1
+!s100 je7ATC7KGfYiQlzJUa]8]2
+Id=[JEg?Z^>D]P4;m44IdE3
+S1
+R0
+w1747210861
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/datapath.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/datapath.sv
+!i122 12
+L0 1 251
+R4
+R5
+r1
+!s85 0
+31
+Z13 !s108 1747212018.000000
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/datapath.sv|
+!i113 0
+R7
+R8
+R2
+vex_mem
+R3
+Z14 !s110 1747212018
+!i10b 1
+!s100 8DN^W5QKz>3eLEeae:nd=1
+I=n`<26:LULgcOFVA<8Cg=3
+S1
+R0
+w1747208814
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/ex_mem.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/ex_mem.sv
+!i122 11
+Z15 L0 1 22
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/ex_mem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/ex_mem.sv|
+!i113 0
+R7
+R8
+R2
+vforwarding_unit
+R3
+R14
+!i10b 1
+!s100 nYU_ch7:g0kJnVl]?[b1j3
+IWmHkI^3n<KiORRHIU9`bG1
+S1
+R0
+w1744093629
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/forwarding_unit.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/forwarding_unit.sv
+!i122 10
+Z16 L0 1 21
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/forwarding_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/forwarding_unit.sv|
+!i113 0
+R7
+R8
+R2
+vhazard_unit
+R3
+R14
+!i10b 1
+!s100 zYOBbk`TGE_FPN7V44bf;2
+I^7Ji7WF4oShUFZGJ:DhF]3
+S1
+R0
+w1747202427
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/hazard_unit.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/hazard_unit.sv
+!i122 9
+Z17 L0 1 12
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/hazard_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/hazard_unit.sv|
+!i113 0
+R7
+R8
+R2
+vid_ex
+R3
+R14
+!i10b 1
+!s100 DXh21<UoAUh96zR[h5X`o3
+IE<2IV@AL=EEl6<=jNPPP73
+S1
+R0
+w1746951031
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/id_ex.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/id_ex.sv
+!i122 8
+L0 1 42
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/id_ex.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/id_ex.sv|
+!i113 0
+R7
+R8
+R2
+vif_id
+R3
+R14
+!i10b 1
+!s100 <Q^7U<RiQS>dLBZ32J2>=0
+IRKm4diYS`11zR<O3JbTNc0
+S1
+R0
+w1745492517
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/if_id.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/if_id.sv
+!i122 7
+R12
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/if_id.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/if_id.sv|
+!i113 0
+R7
+R8
+R2
+vimmgen
+R3
+R14
+!i10b 1
+!s100 :gIY6_?dMY9dbT<6>ji7S0
+IdS43eW_b1nGcDB2BFJC0L1
+S1
+R0
+w1745492731
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/immgen.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/immgen.sv
+!i122 6
+L0 1 19
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/immgen.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/immgen.sv|
+!i113 0
+R7
+R8
+R2
+vinstmemory
+R3
+R1
+!i10b 1
+!s100 fe07]:bNfFeElNh;6gE_M2
+IE0L]OBl`TJD]EOM1oQVQR0
+S1
+R0
+w1747208444
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/instmemory.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/instmemory.sv
+!i122 23
+R16
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/instmemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/instmemory.sv|
+!i113 0
+R7
+R8
+R2
+vlsu
+R3
+R14
+!i10b 1
+!s100 =KYOCca9k`Bhd4?5H:U6B1
+I7RcUcHV6]iNR_`iPVYSUe0
+S1
+R0
+w1747202420
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/lsu.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/lsu.sv
+!i122 5
+L0 1 60
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/lsu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/lsu.sv|
+!i113 0
+R7
+R8
+R2
+vmem_wb
+R3
+R14
+!i10b 1
+!s100 lKSC[MDCSjoBoc>a]KlM<3
+IoWPR><Cj0?;_WRzYQ^GEK1
+S1
+R0
+w1747209126
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mem_wb.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mem_wb.sv
+!i122 4
+R15
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mem_wb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mem_wb.sv|
+!i113 0
+R7
+R8
+R2
+vmux3to1
+R3
+R14
+!i10b 1
+!s100 @T96ZD9[gczVBjSPfbjz@1
+IRZMMOaAUGI[<b9A`7^9dm2
+S1
+R0
+w1739787333
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mux3to1.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mux3to1.sv
+!i122 3
+L0 1 14
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mux3to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mux3to1.sv|
+!i113 0
+R7
+R8
+R2
+vpipelined
+R3
+R14
+!i10b 1
+!s100 a9JW]^a=I[j]3OjTDWl9i1
+I=LZ2Z8B0m36Afa6R3SCJl1
+S1
+R0
+w1747210949
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/pipelined.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/pipelined.sv
+!i122 2
+L0 1 110
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/pipelined.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/pipelined.sv|
+!i113 0
+R7
+R8
+R2
+vprogram_counter
+R3
+R14
+!i10b 1
+!s100 SoD?VS<^CPc1z[[le<g<m3
+I`UE`UANia`W2c>1I3]Y1F1
+S1
+R0
+w1743782110
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/program_counter.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/program_counter.sv
+!i122 1
+R17
+R4
+R5
+r1
+!s85 0
+31
+Z18 !s108 1747212017.000000
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/program_counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/program_counter.sv|
+!i113 0
+R7
+R8
+R2
+vregfile
+R3
+!s110 1747212017
+!i10b 1
+!s100 KSMjHg9TXzGT_=LM@]YfE0
+I9Vf>]b7X_C[V[;^kZAdal3
+S1
+R0
+w1745515090
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/regfile.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/regfile.sv
+!i122 0
+R11
+R4
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/regfile.sv|
+!i113 0
+R7
+R8
+R2
+vtb_pipelined
+R3
+R1
+!i10b 1
+!s100 d=Na3a`404mMnczZmIQBi1
+IF;_AQiRBD2T5?>Sac4nzz1
+S1
+R0
+w1747212009
+8C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/tb_pipelined.sv
+FC:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/tb_pipelined.sv
+!i122 24
+L0 3 94
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/tb_pipelined.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)|C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/tb_pipelined.sv|
+!i113 0
+R7
+R8
+R2

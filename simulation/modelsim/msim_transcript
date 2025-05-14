@@ -1,0 +1,322 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do pipelined_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Modifying C:/intelFPGA_lite/21.1/questa_fse/win64/modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/regfile.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:17 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 15:40:17 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/program_counter.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:17 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/program_counter.sv 
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/pipelined.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/pipelined.sv 
+# -- Compiling module pipelined
+# 
+# Top level modules:
+# 	pipelined
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mux3to1.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mux3to1.sv 
+# -- Compiling module mux3to1
+# 
+# Top level modules:
+# 	mux3to1
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mem_wb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/mem_wb.sv 
+# -- Compiling module mem_wb
+# 
+# Top level modules:
+# 	mem_wb
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/lsu.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/lsu.sv 
+# -- Compiling module lsu
+# 
+# Top level modules:
+# 	lsu
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/immgen.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/immgen.sv 
+# -- Compiling module immgen
+# 
+# Top level modules:
+# 	immgen
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/if_id.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/if_id.sv 
+# -- Compiling module if_id
+# 
+# Top level modules:
+# 	if_id
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/id_ex.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/id_ex.sv 
+# -- Compiling module id_ex
+# 
+# Top level modules:
+# 	id_ex
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/hazard_unit.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/hazard_unit.sv 
+# -- Compiling module hazard_unit
+# 
+# Top level modules:
+# 	hazard_unit
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/forwarding_unit.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/forwarding_unit.sv 
+# -- Compiling module forwarding_unit
+# 
+# Top level modules:
+# 	forwarding_unit
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/ex_mem.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/ex_mem.sv 
+# -- Compiling module ex_mem
+# 
+# Top level modules:
+# 	ex_mem
+# End time: 15:40:18 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/datapath.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:18 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 15:40:19 on May 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_unit.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:19 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_unit.sv 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 15:40:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_MW.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:19 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_MW.sv 
+# -- Compiling module control_ff_MW
+# 
+# Top level modules:
+# 	control_ff_MW
+# End time: 15:40:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_EM.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:19 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_EM.sv 
+# -- Compiling module control_ff_EM
+# 
+# Top level modules:
+# 	control_ff_EM
+# End time: 15:40:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_DE.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:19 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control_ff_DE.sv 
+# -- Compiling module control_ff_DE
+# 
+# Top level modules:
+# 	control_ff_DE
+# End time: 15:40:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:19 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 15:40:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/btb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:19 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/btb.sv 
+# -- Compiling module btb
+# 
+# Top level modules:
+# 	btb
+# End time: 15:40:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_prediction.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:19 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_prediction.sv 
+# -- Compiling module branch_prediction
+# 
+# Top level modules:
+# 	branch_prediction
+# End time: 15:40:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_comb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:19 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/branch_comb.sv 
+# -- Compiling module branch_comb
+# 
+# Top level modules:
+# 	branch_comb
+# End time: 15:40:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu_control.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:20 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu_control.sv 
+# -- Compiling module alu_control
+# 
+# Top level modules:
+# 	alu_control
+# End time: 15:40:20 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:20 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:40:20 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/instmemory.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:20 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/instmemory.sv 
+# -- Compiling module instmemory
+# 
+# Top level modules:
+# 	instmemory
+# End time: 15:40:20 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new) {C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/tb_pipelined.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:40:20 on May 14,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)" C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/tb_pipelined.sv 
+# -- Compiling module tb_pipelined
+# 
+# Top level modules:
+# 	tb_pipelined
+# End time: 15:40:20 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_pipelined
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_pipelined 
+# Start time: 15:40:20 on May 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_pipelined(fast)
+# Loading work.pipelined(fast)
+# Loading work.datapath(fast)
+# Loading work.program_counter(fast)
+# Loading work.branch_prediction(fast)
+# Loading work.btb(fast)
+# Loading work.instmemory(fast)
+# Loading work.if_id(fast)
+# Loading work.regfile(fast)
+# Loading work.immgen(fast)
+# Loading work.id_ex(fast)
+# Loading work.mux3to1(fast)
+# Loading work.branch_comb(fast)
+# Loading work.alu_control(fast)
+# Loading work.alu(fast)
+# Loading work.forwarding_unit(fast)
+# Loading work.ex_mem(fast)
+# Loading work.lsu(fast)
+# Loading work.mem_wb(fast)
+# Loading work.hazard_unit(fast)
+# Loading work.control(fast)
+# Loading work.control_unit(fast)
+# Loading work.control_ff_DE(fast)
+# Loading work.control_ff_EM(fast)
+# Loading work.control_ff_MW(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# === Starting pipelined testbench ===
+# === Ending simulation ===
+# ** Note: $finish    : C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/tb_pipelined.sv(93)
+#    Time: 1030 ns  Iteration: 0  Instance: /tb_pipelined
+# 1
+# Break in Module tb_pipelined at C:/Users/TUAN/tailieuhocbk/nam4ki1/Do_an_2/Do_an_2(new)/tb_pipelined.sv line 93
+# End time: 15:44:30 on May 14,2025, Elapsed time: 0:04:10
+# Errors: 0, Warnings: 0
