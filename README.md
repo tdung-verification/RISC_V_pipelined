@@ -1,0 +1,18 @@
+# RISC-V Pipelined Processor
+
+This is a systemverilog code for a 5-stage pipelined RISC-V Processor with forwarding, stalling, and flushing functionality. Here is the circuit diagramme of the processor.
+
+<img width="1175" height="684" alt="image" src="https://github.com/user-attachments/assets/08123cba-46e2-47e1-ac2c-ab67d7b206b6" />
+
+This is the semester project for the course Computer Architecture at University of Technology(VNU-HCM). The instruction memory module is preloaded with mem.dump , implemented in RISC-V Assembly Language. 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* University of Technology(VNU-HCM) for the course on Computer Architecture.
+* Joachim Cao, the RA for this course, for the troubleshooting help, lab manuals, and step by step guidance in building this project.
+
+
