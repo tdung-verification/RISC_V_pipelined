@@ -1,0 +1,15 @@
+begin:lui x9, 0x7
+add     x10, x0, x9
+addi    x9, x9, 1024
+lw      x11, 1024(x9)
+blt     x10, x11, next
+addi    x11, x11, 2
+next: sw x11, 0(x10)
+bne x8, x9, last
+sw      x8, 0(x10)
+last: jal x0, begin
+lui     x8, 0x7
+nop
+nop
+nop
+nop
