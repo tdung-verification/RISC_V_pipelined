@@ -4,7 +4,8 @@ This is a systemverilog code for a 5-stage pipelined RISC-V Processor with forwa
 
 <img width="1175" height="684" alt="image" src="https://github.com/user-attachments/assets/08123cba-46e2-47e1-ac2c-ab67d7b206b6" />
 
-This is the semester project for the course Computer Architecture at University of Technology(VNU-HCM). The instruction memory module is preloaded with mem.dump , implemented in RISC-V Assembly Language. 
+This is the semester project for the course Computer Architecture at University of Technology(VNU-HCM). 
+The instruction memory is preloaded with a mem.dump file containing RISC-V machine code compiled from RISC-V assembly instructions. The original assembly code is provided in the assembly.txt file for reference.
 
 ## License
 
