@@ -13,7 +13,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* University of Technology(VNU-HCM) for the course on Computer Architecture.
-* Joachim Cao, the RA for this course, for the troubleshooting help, lab manuals, and step by step guidance in building this project.
+* **University of Technology(VNU-HCM)** for the course on Computer Architecture.
+* **Joachim Cao**, the RA for this course, for the troubleshooting help, lab manuals, and step by step guidance in building this project.
 * My project teammate **Nguyễn Văn Thanh Chánh** – for his valuable collaboration in building all pipeline registers.
 
